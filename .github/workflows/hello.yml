@@ -1,0 +1,14 @@
+name: Hello Github Actions
+on:
+  push:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "hello from git actions"
+      - name: Show date
+        run: date
+      - name: show operating system
+        run: uname -a
+
