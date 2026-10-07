@@ -11,4 +11,11 @@ jobs:
         run: date
       - name: show operating system
         run: uname -a
+      - name: Show python version
+        run: python --version
+      - name: show git version
+        run: git --version
+      - name: show files
+        run: ls -lah
+
 
